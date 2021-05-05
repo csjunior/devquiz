@@ -1,5 +1,5 @@
+import 'package:devquiz/core/app_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:devquiz/home/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,8 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'devquiz',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
-      //home: ChallengePage(),
+      home: AppWidget(),
     );
   }
 }
